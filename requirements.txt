@@ -1,0 +1,5 @@
+
+aiogram==3.0.*
+Django==4.2.*
+environs==9.5.*
+pandas==2.0.*

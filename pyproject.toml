@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "beautycitybot"
+version = "0.1.0"
+description = ""
+authors = ["Sangdak <82779027+Sangdak@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+environs = "^9.5.0"
+aiogram = "^3.0.0b7"
+pandas = "^2.0.1"
+gunicorn = "^20.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
